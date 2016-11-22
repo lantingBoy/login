@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>碎屏险-登录</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/login.css" />
+		<script src="js/zepto.min.js" type="text/javascript"></script>
+		<script src="js/event.js" type="text/javascript"></script>
+		<script src="js/touch.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left">
+				<img src="img/header_bar.jpg">
+			</a>
+			<h1 class="login-title">碎屏险</h1>
+		</header>
+		<form class="login_message_wrap">
+			<div class="login_message" >
+				<div class="item1">
+					<div class="account">
+						<img src="img/icon_user.png">
+					</div>
+					<input type="text" placeholder="助手帐号"  class="text1"/ >
+					<span id="message_false">
+						
+						<span><img src="img/icon_wrong.png" alt="" /></span>			
+						<span>助手账号不存在</span>
+					</span>
+				</div>
+				<div class="item2">
+					<div class="user_password">
+						<img src="img/icon_lock.png">
+					</div>
+					
+					<input class="text2" type="password" placeholder="密码"/>
+					<span id="message_false1">
+						<span><img src="img/icon_wrong.png"></span>			
+						<span>密码错误</span>
+					</span>
+				</div>
+				<div class="item2">
+					<div class="user_name">
+						<img src="img/icon_user.png">
+					</div>
+					
+					<input class="text2" type="text" placeholder="店员姓名"/>
+				</div>
+				<div class="check">
+					<div class="check_margin">
+						<div class="input_check-wrap">
+							<input type="checkbox"class="input_check" id="check3">
+							<label for="check3"></label>
+							<span class="read_argement">阅读并同意</span>
+							<span class="user_argement">用户协议</span>
+						</div>
+					</div>			
+				</div>				
+			</div>
+			<div class="button_wrap">
+				<button type="button" class="button">登录</button>
+			</div>
+			
+		</form>
+		
+	</body>
+</html>
